@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+/* nav bars */
+.form1{
+    width: 38%;
+}
+
+.form1 input{
+    border-radius: 50px;
+    border: 1px solid #5d5555;
+    padding: 0.5rem ;
+    color: white;
+}
+
+.mic{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    border-radius: 50px;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.navigration{
+    display: flex;  
+    justify-content: space-around; 
+    
+    width: 100%;
+}
+
+/* scroll bar */
+
+.right-sec{
+    color: white;
+    /* height: 91vh; */
+    /* border-right: 2px solid #5d5555; */
+    
+}
+
+.right-sec ul{
+    list-style: none;
+    /* border-bottom: 2px solid #5d5555; */
+    width: 90%;
+}
+
+.right-sec li a{
+    text-decoration: none; 
+    color: white;  
+}
+
+.right-sec ul li i{
+   font-size: 1.5rem;
+   margin-right: 20px;
+}
+
+.right-sec ul li{
+    margin: 10px 0;
+}
+
+.right ul li{
+    margin-bottom: 10px;
+}
+
+/* card */
+.video{
+    cursor: pointer;
+    transition: transform(0.2s);
+}
+
+.video :hover{
+    transform: scale(1.02);
+}
+
+/* left section  */
+#img1{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.small-video{
+    max-height:380px;
+}
+
+/* Detils page */
+
+/* ifrem */
+#img2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.button1{
+    border-radius: 100px;
+    border: none;
+   
+}
+
+.button2{
+    
+    border: none;
+    border-radius: 100px;
+}
+
+.button3{
+    background-color: rgb(89, 84, 84), black, rgba(0, 0, 0, 0.121);
+    border: none;
+    border-radius: 100px;
+    border: 2px solid rgb(66, 64, 64);
+}
+
+#img3{
+    height: 20px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+/* description */
+
+.description{
+    background-color: #393839;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.img4{
+    border-radius: 50%;
+}
+
+.subscribe-btn{
+    margin-left: 250px;
+}
+
+/* profile page */
+.style-paregraph{
+    text-align: justify;
+}
+
+.video-style1{
+    height:400px;
+}
+
+.video-style1 img{
+    height: 150px;
+}
+
+/* related video */
+.rel-video-des{
+    font-size: 0.8rem;
+}
+
+
+/* community Post */
+.card1 {
+    /* background: white; */
+    margin: 20px auto;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    max-width: 500px;
+    padding: 15px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .username {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .timestamp {
+    font-size: 12px;
+    color: gray;
+  }
+
+  .content {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .content img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .comments {
+    font-size: 13px;
+    color: #007BFF;
+    cursor: pointer;
+  }
+
+  .comments:hover {
+    text-decoration: underline;
+  }
+
+/* short-sec */
+.short-sec{
+    height:500px;
+    background-size: cover;
+    width: 100%;
+}
+
+.short-sec img{
+    height: 400px;
+    width: 100%;
+}
+
+.shorts-button{
+    width: 80px;
+    height: 60px;
+    border: none;
+    font-size: 50px;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+/* playlist sec */
+
+.playlist-icon{
+    position: absolute;
+    top: 130px;
+    left: 200px;
+}
+
+/* media quary */
+
+@media screen and (max-width:770px) {
+    .small-video{
+        max-height:500px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .small-video{
+        max-height: 400px;
+    }
+    
+}
+
+/* mediam screen */
+@media screen and (max-width:992px) {
+
+    .share-btn{
+        margin-top: 0px;
+    }
+    .subscribe-btn{
+        margin-left: 100px;
+    }
+    .playlist-icon{
+        position: absolute;
+        top: 130px;
+        left: 150px;
+    }
+    .form1{
+        width: 100%;
+    }
+    .form1 input{
+        border-radius: 20px;
+        border: 1px solid #5d5555;
+        padding: 0.5rem ;
+        color: white;
+    }
+    
+}
+
+/* small screen */
+@media screen and (max-width:688px) {
+    .subscribe-btn{
+        margin-right: 10px;
+        margin-left: 190px;
+    }
+    .share-btn{
+        margin-top: 10px;
+    }
+    .related-video{
+        justify-content: center;
+    }
+    .video-style1 img{
+        height: 200px;
+    }
+
+    .video-style1{
+        height: 250px;
+        width: 100%;
+    }
+    .rel-video-des{
+        font-size: 1.2rem;
+    }
+    .subscribe-btn{
+        margin-left: 0px;
+    }
+    .playlist-icon{
+        position: absolute;
+        top: 230px;
+        left: 400px;
+    }
+    .short-sec{
+        height:600px;
+        background-size: cover;
+        width: 100%;
+        margin-top: 10px;
+        margin: 20px 20px;
+    }
+    
+    .short-sec img{
+        height: 500px;
+        width: 100%;
+    } 
+    .form1{
+        width: 100%;
+    }
+    .form1 input{
+        border-radius: 20px;
+        border: 1px solid #5d5555;
+        padding: 0.5rem ;
+        color: white;
+    }
+}
+
